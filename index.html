@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap Layout 3</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">MySite</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Gallery</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+ 
+    <!-- Content with Grid Layout (3 Columns) -->
+    <div class="container my-5">
+      <div class="row">
+        <div class="col-lg-4 mb-4">
+          <div class="card">
+            <img
+              src="https://via.placeholder.com/300"
+              class="card-img-top"
+              alt="Image"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Card Title 1</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the content.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 mb-4">
+          <div class="card">
+            <img
+              src="https://via.placeholder.com/300"
+              class="card-img-top"
+              alt="Image"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Card Title 2</h5>
+              <p class="card-text">
+                Another quick example text to fill the space. You can modify
+                this as per your needs.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 mb-4">
+          <div class="card">
+            <img
+              src="https://via.placeholder.com/300"
+              class="card-img-top"
+              alt="Image"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Card Title 3</h5>
+              <p class="card-text">
+                Yet another quick example text for demonstrating content in the
+                card component.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+ 
+    <!-- Footer -->
+    <footer class="bg-light text-center py-3">
+      <p>&copy; 2024 MySite. All Rights Reserved.</p>
+    </footer>
+ 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
+ 
+
